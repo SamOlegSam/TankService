@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model2Container" CdmEntityContainer="ChemLabEntities">
+    <EntitySetMapping Name="ActionLog">
+      <EntityTypeMapping TypeName="Model2.ActionLog">
+        <MappingFragment StoreEntitySet="ActionLog">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="operation" ColumnName="operation" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="remoteip" ColumnName="remoteip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActionLog2">
+      <EntityTypeMapping TypeName="Model2.ActionLog2">
+        <MappingFragment StoreEntitySet="ActionLog2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="operation" ColumnName="operation" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="remoteip" ColumnName="remoteip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActionLogPassport">
+      <EntityTypeMapping TypeName="Model2.ActionLogPassport">
+        <MappingFragment StoreEntitySet="ActionLogPassport">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="operation" ColumnName="operation" />
+          <ScalarProperty Name="passportid" ColumnName="passportid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuthActivity">
+      <EntityTypeMapping TypeName="Model2.AuthActivity">
+        <MappingFragment StoreEntitySet="AuthActivity">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="lastactivity" ColumnName="lastactivity" />
+          <ScalarProperty Name="islogged" ColumnName="islogged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuthActivity2">
+      <EntityTypeMapping TypeName="Model2.AuthActivity2">
+        <MappingFragment StoreEntitySet="AuthActivity2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="lastactivity" ColumnName="lastactivity" />
+          <ScalarProperty Name="islogged" ColumnName="islogged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuthHistory">
+      <EntityTypeMapping TypeName="Model2.AuthHistory">
+        <MappingFragment StoreEntitySet="AuthHistory">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="islogged" ColumnName="islogged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuthHistory2">
+      <EntityTypeMapping TypeName="Model2.AuthHistory2">
+        <MappingFragment StoreEntitySet="AuthHistory2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="islogged" ColumnName="islogged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customer">
+      <EntityTypeMapping TypeName="Model2.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="default" ColumnName="default" />
+          <ScalarProperty Name="hidden" ColumnName="hidden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Department">
+      <EntityTypeMapping TypeName="Model2.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Directions">
+      <EntityTypeMapping TypeName="Model2.Directions">
+        <MappingFragment StoreEntitySet="Directions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Filial">
+      <EntityTypeMapping TypeName="Model2.Filial">
+        <MappingFragment StoreEntitySet="Filial">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="laboratory" ColumnName="laboratory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManualData">
+      <EntityTypeMapping TypeName="Model2.ManualData">
+        <MappingFragment StoreEntitySet="ManualData">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dirId" ColumnName="dirId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dtwrite" ColumnName="dtwrite" />
+          <ScalarProperty Name="dtupdate" ColumnName="dtupdate" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="density" ColumnName="density" />
+          <ScalarProperty Name="density20" ColumnName="density20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="saltprc" ColumnName="saltprc" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManualData_old">
+      <EntityTypeMapping TypeName="Model2.ManualData_old">
+        <MappingFragment StoreEntitySet="ManualData_old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dirId" ColumnName="dirId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dtwrite" ColumnName="dtwrite" />
+          <ScalarProperty Name="dtupdate" ColumnName="dtupdate" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="density" ColumnName="density" />
+          <ScalarProperty Name="density20" ColumnName="density20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="saltprc" ColumnName="saltprc" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManualData_trash">
+      <EntityTypeMapping TypeName="Model2.ManualData_trash">
+        <MappingFragment StoreEntitySet="ManualData_trash">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dirId" ColumnName="dirId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dtwrite" ColumnName="dtwrite" />
+          <ScalarProperty Name="dtupdate" ColumnName="dtupdate" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="density" ColumnName="density" />
+          <ScalarProperty Name="density20" ColumnName="density20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="saltprc" ColumnName="saltprc" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManualData_updated">
+      <EntityTypeMapping TypeName="Model2.ManualData_updated">
+        <MappingFragment StoreEntitySet="ManualData_updated">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dirId" ColumnName="dirId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dtwrite" ColumnName="dtwrite" />
+          <ScalarProperty Name="dtupdate" ColumnName="dtupdate" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="density" ColumnName="density" />
+          <ScalarProperty Name="density20" ColumnName="density20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="saltprc" ColumnName="saltprc" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Passport">
+      <EntityTypeMapping TypeName="Model2.Passport">
+        <MappingFragment StoreEntitySet="Passport">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="shift" ColumnName="shift" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="dtsample" ColumnName="dtsample" />
+          <ScalarProperty Name="dtsamplelast" ColumnName="dtsamplelast" />
+          <ScalarProperty Name="dtclose" ColumnName="dtclose" />
+          <ScalarProperty Name="closelevel" ColumnName="closelevel" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="operatorid" ColumnName="operatorid" />
+          <ScalarProperty Name="recipientid" ColumnName="recipientid" />
+          <ScalarProperty Name="throughsikn" ColumnName="throughsikn" />
+          <ScalarProperty Name="throughsiknid" ColumnName="throughsiknid" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="salt" ColumnName="salt" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="designation" ColumnName="designation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PassportTnpa">
+      <EntityTypeMapping TypeName="Model2.PassportTnpa">
+        <MappingFragment StoreEntitySet="PassportTnpa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="tank" ColumnName="tank" />
+          <ScalarProperty Name="uun" ColumnName="uun" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="Model2.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="departmentid" ColumnName="departmentid" />
+          <ScalarProperty Name="approve" ColumnName="approve" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="chief" ColumnName="chief" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="patronymic" ColumnName="patronymic" />
+          <ScalarProperty Name="name1" ColumnName="name1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person2">
+      <EntityTypeMapping TypeName="Model2.Person2">
+        <MappingFragment StoreEntitySet="Person2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="departmentid" ColumnName="departmentid" />
+          <ScalarProperty Name="chief" ColumnName="chief" />
+          <ScalarProperty Name="approve" ColumnName="approve" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocol">
+      <EntityTypeMapping TypeName="Model2.Protocol">
+        <MappingFragment StoreEntitySet="Protocol">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="testdt" ColumnName="testdt" />
+          <ScalarProperty Name="endtestdt" ColumnName="endtestdt" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="testobjectid" ColumnName="testobjectid" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="samplerid" ColumnName="samplerid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="sampletnpa" ColumnName="sampletnpa" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="responsibleid" ColumnName="responsibleid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="isnotforpassport" ColumnName="isnotforpassport" />
+          <ScalarProperty Name="iscustomerssample" ColumnName="iscustomerssample" />
+          <ScalarProperty Name="approveid" ColumnName="approveid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="sampleDeliveryDt" ColumnName="sampleDeliveryDt" />
+          <ScalarProperty Name="sampleAct" ColumnName="sampleAct" />
+          <ScalarProperty Name="directionid" ColumnName="directionid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocol_15062021">
+      <EntityTypeMapping TypeName="Model2.Protocol_15062021">
+        <MappingFragment StoreEntitySet="Protocol-15062021">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="testdt" ColumnName="testdt" />
+          <ScalarProperty Name="endtestdt" ColumnName="endtestdt" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="testobject" ColumnName="testobject" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="samplerid" ColumnName="samplerid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="sampletnpa" ColumnName="sampletnpa" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="responsibleid" ColumnName="responsibleid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="isnotforpassport" ColumnName="isnotforpassport" />
+          <ScalarProperty Name="iscustomerssample" ColumnName="iscustomerssample" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocol_old">
+      <EntityTypeMapping TypeName="Model2.Protocol_old">
+        <MappingFragment StoreEntitySet="Protocol-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="testdt" ColumnName="testdt" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="testobject" ColumnName="testobject" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="samplerid" ColumnName="samplerid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="sampletnpa" ColumnName="sampletnpa" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="responsibleid" ColumnName="responsibleid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="isnotforpassport" ColumnName="isnotforpassport" />
+          <ScalarProperty Name="endtestdt" ColumnName="endtestdt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolResult">
+      <EntityTypeMapping TypeName="Model2.ProtocolResult">
+        <MappingFragment StoreEntitySet="ProtocolResult">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="methylmercaptan" ColumnName="methylmercaptan" />
+          <ScalarProperty Name="ethylmercaptan" ColumnName="ethylmercaptan" />
+          <ScalarProperty Name="densAstm" ColumnName="densAstm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolRoom">
+      <EntityTypeMapping TypeName="Model2.ProtocolRoom">
+        <MappingFragment StoreEntitySet="ProtocolRoom">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolRoom_old">
+      <EntityTypeMapping TypeName="Model2.ProtocolRoom_old">
+        <MappingFragment StoreEntitySet="ProtocolRoom-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="roomid" ColumnName="roomid" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolTest">
+      <EntityTypeMapping TypeName="Model2.ProtocolTest">
+        <MappingFragment StoreEntitySet="ProtocolTest">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="dens" ColumnName="dens" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="salt" ColumnName="salt" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fraction" ColumnName="fraction" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="densAstm" ColumnName="densAstm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolTestTnpa">
+      <EntityTypeMapping TypeName="Model2.ProtocolTestTnpa">
+        <MappingFragment StoreEntitySet="ProtocolTestTnpa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="dens" ColumnName="dens" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="salt" ColumnName="salt" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fraction" ColumnName="fraction" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="densAstm" ColumnName="densAstm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolTool">
+      <EntityTypeMapping TypeName="Model2.ProtocolTool">
+        <MappingFragment StoreEntitySet="ProtocolTool">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="toolid" ColumnName="toolid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolTool_old">
+      <EntityTypeMapping TypeName="Model2.ProtocolTool_old">
+        <MappingFragment StoreEntitySet="ProtocolTool-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="toolid" ColumnName="toolid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recipient">
+      <EntityTypeMapping TypeName="Model2.Recipient">
+        <MappingFragment StoreEntitySet="Recipient">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleFilial">
+      <EntityTypeMapping TypeName="Model2.RoleFilial">
+        <MappingFragment StoreEntitySet="RoleFilial">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roleid" ColumnName="roleid" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Model2.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Room">
+      <EntityTypeMapping TypeName="Model2.Room">
+        <MappingFragment StoreEntitySet="Room">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Room_old">
+      <EntityTypeMapping TypeName="Model2.Room_old">
+        <MappingFragment StoreEntitySet="Room-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SampleLocation">
+      <EntityTypeMapping TypeName="Model2.SampleLocation">
+        <MappingFragment StoreEntitySet="SampleLocation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="sourceid" ColumnName="sourceid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="directionid" ColumnName="directionid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SampleSource">
+      <EntityTypeMapping TypeName="Model2.SampleSource">
+        <MappingFragment StoreEntitySet="SampleSource">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SampleType">
+      <EntityTypeMapping TypeName="Model2.SampleType">
+        <MappingFragment StoreEntitySet="SampleType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="serviceMessage">
+      <EntityTypeMapping TypeName="Model2.serviceMessage">
+        <MappingFragment StoreEntitySet="serviceMessage">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Signer">
+      <EntityTypeMapping TypeName="Model2.Signer">
+        <MappingFragment StoreEntitySet="Signer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="approveid" ColumnName="approveid" />
+          <ScalarProperty Name="checkedid" ColumnName="checkedid" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Model2.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestDensTnpa">
+      <EntityTypeMapping TypeName="Model2.TestDensTnpa">
+        <MappingFragment StoreEntitySet="TestDensTnpa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="densroom" ColumnName="densroom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestObject">
+      <EntityTypeMapping TypeName="Model2.TestObject">
+        <MappingFragment StoreEntitySet="TestObject">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="enable" ColumnName="enable" />
+          <ScalarProperty Name="default" ColumnName="default" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestTnpa">
+      <EntityTypeMapping TypeName="Model2.TestTnpa">
+        <MappingFragment StoreEntitySet="TestTnpa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="testtypeid" ColumnName="testtypeid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestTnpaNew">
+      <EntityTypeMapping TypeName="Model2.TestTnpaNew">
+        <MappingFragment StoreEntitySet="TestTnpaNew">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="testtypeid" ColumnName="testtypeid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="default" ColumnName="default" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestType">
+      <EntityTypeMapping TypeName="Model2.TestType">
+        <MappingFragment StoreEntitySet="TestType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="shortname" ColumnName="shortname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tool">
+      <EntityTypeMapping TypeName="Model2.Tool">
+        <MappingFragment StoreEntitySet="Tool">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="sernum" ColumnName="sernum" />
+          <ScalarProperty Name="regnum" ColumnName="regnum" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="checkdate" ColumnName="checkdate" />
+          <ScalarProperty Name="actual" ColumnName="actual" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ToolType">
+      <EntityTypeMapping TypeName="Model2.ToolType">
+        <MappingFragment StoreEntitySet="ToolType">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="toolid" ColumnName="toolid" />
+          <ScalarProperty Name="testid" ColumnName="testid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ToolType_old">
+      <EntityTypeMapping TypeName="Model2.ToolType_old">
+        <MappingFragment StoreEntitySet="ToolType-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="toolid" ColumnName="toolid" />
+          <ScalarProperty Name="testid" ColumnName="testid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ToolType_old2">
+      <EntityTypeMapping TypeName="Model2.ToolType_old2">
+        <MappingFragment StoreEntitySet="ToolType-old2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="toolid" ColumnName="toolid" />
+          <ScalarProperty Name="testid" ColumnName="testid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="Model2.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="patronymic" ColumnName="patronymic" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="Model2.UserRoles">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="roleid" ColumnName="roleid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Model2.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="roleid" ColumnName="roleid" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="approve" ColumnName="approve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users2old">
+      <EntityTypeMapping TypeName="Model2.Users2old">
+        <MappingFragment StoreEntitySet="Users2old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="personid" ColumnName="personid" />
+          <ScalarProperty Name="roleid" ColumnName="roleid" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocol_trash">
+      <EntityTypeMapping TypeName="Model2.Protocol_trash">
+        <MappingFragment StoreEntitySet="Protocol_trash">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="testdt" ColumnName="testdt" />
+          <ScalarProperty Name="endtestdt" ColumnName="endtestdt" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="testobject" ColumnName="testobject" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="samplerid" ColumnName="samplerid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="sampletnpa" ColumnName="sampletnpa" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="responsibleid" ColumnName="responsibleid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="isnotforpassport" ColumnName="isnotforpassport" />
+          <ScalarProperty Name="iscustomerssample" ColumnName="iscustomerssample" />
+          <ScalarProperty Name="approveid" ColumnName="approveid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="sampleDeliveryDt" ColumnName="sampleDeliveryDt" />
+          <ScalarProperty Name="sampleAct" ColumnName="sampleAct" />
+          <ScalarProperty Name="directionid" ColumnName="directionid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Protocol_updated">
+      <EntityTypeMapping TypeName="Model2.Protocol_updated">
+        <MappingFragment StoreEntitySet="Protocol_updated">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="testdt" ColumnName="testdt" />
+          <ScalarProperty Name="endtestdt" ColumnName="endtestdt" />
+          <ScalarProperty Name="customerid" ColumnName="customerid" />
+          <ScalarProperty Name="testobject" ColumnName="testobject" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="samplerid" ColumnName="samplerid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="sampletnpa" ColumnName="sampletnpa" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="responsibleid" ColumnName="responsibleid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="isnotforpassport" ColumnName="isnotforpassport" />
+          <ScalarProperty Name="iscustomerssample" ColumnName="iscustomerssample" />
+          <ScalarProperty Name="approveid" ColumnName="approveid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="sampleDeliveryDt" ColumnName="sampleDeliveryDt" />
+          <ScalarProperty Name="sampleAct" ColumnName="sampleAct" />
+          <ScalarProperty Name="directionid" ColumnName="directionid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolResult_trash">
+      <EntityTypeMapping TypeName="Model2.ProtocolResult_trash">
+        <MappingFragment StoreEntitySet="ProtocolResult_trash">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="ethylmercaptan" ColumnName="ethylmercaptan" />
+          <ScalarProperty Name="methylmercaptan" ColumnName="methylmercaptan" />
+          <ScalarProperty Name="densAstm" ColumnName="densAstm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProtocolResult_updated">
+      <EntityTypeMapping TypeName="Model2.ProtocolResult_updated">
+        <MappingFragment StoreEntitySet="ProtocolResult_updated">
+          <ScalarProperty Name="logdate" ColumnName="logdate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="protocolid" ColumnName="protocolid" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="methylmercaptan" ColumnName="methylmercaptan" />
+          <ScalarProperty Name="ethylmercaptan" ColumnName="ethylmercaptan" />
+          <ScalarProperty Name="densAstm" ColumnName="densAstm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tool_old">
+      <EntityTypeMapping TypeName="Model2.Tool_old">
+        <MappingFragment StoreEntitySet="Tool-old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="sernum" ColumnName="sernum" />
+          <ScalarProperty Name="regnum" ColumnName="regnum" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="checkdate" ColumnName="checkdate" />
+          <ScalarProperty Name="actual" ColumnName="actual" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="gid" ColumnName="gid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LastMechanResultMoz">
+      <EntityTypeMapping TypeName="Model2.LastMechanResultMoz">
+        <MappingFragment StoreEntitySet="LastMechanResultMoz">
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LastTanksResultMoz">
+      <EntityTypeMapping TypeName="Model2.LastTanksResultMoz">
+        <MappingFragment StoreEntitySet="LastTanksResultMoz">
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LastTanksResultPol">
+      <EntityTypeMapping TypeName="Model2.LastTanksResultPol">
+        <MappingFragment StoreEntitySet="LastTanksResultPol">
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewResult">
+      <EntityTypeMapping TypeName="Model2.ViewResult">
+        <MappingFragment StoreEntitySet="ViewResult">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="laborant" ColumnName="laborant" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="directionid" ColumnName="directionid" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewResultMsi">
+      <EntityTypeMapping TypeName="Model2.ViewResultMsi">
+        <MappingFragment StoreEntitySet="ViewResultMsi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="laborant" ColumnName="laborant" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewResultTank">
+      <EntityTypeMapping TypeName="Model2.ViewResultTank">
+        <MappingFragment StoreEntitySet="ViewResultTank">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dt" ColumnName="dt" />
+          <ScalarProperty Name="filialid" ColumnName="filialid" />
+          <ScalarProperty Name="iscompare" ColumnName="iscompare" />
+          <ScalarProperty Name="samplelocationstr" ColumnName="samplelocationstr" />
+          <ScalarProperty Name="samplenum" ColumnName="samplenum" />
+          <ScalarProperty Name="sampledt" ColumnName="sampledt" />
+          <ScalarProperty Name="endsampledt" ColumnName="endsampledt" />
+          <ScalarProperty Name="sampletypeid" ColumnName="sampletypeid" />
+          <ScalarProperty Name="samplesourceid" ColumnName="samplesourceid" />
+          <ScalarProperty Name="samplelocationid" ColumnName="samplelocationid" />
+          <ScalarProperty Name="laborant" ColumnName="laborant" />
+          <ScalarProperty Name="laborantid" ColumnName="laborantid" />
+          <ScalarProperty Name="startdt" ColumnName="startdt" />
+          <ScalarProperty Name="enddt" ColumnName="enddt" />
+          <ScalarProperty Name="tempareom" ColumnName="tempareom" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+          <ScalarProperty Name="densareom" ColumnName="densareom" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="dens15" ColumnName="dens15" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+          <ScalarProperty Name="sulphur" ColumnName="sulphur" />
+          <ScalarProperty Name="vaporpres" ColumnName="vaporpres" />
+          <ScalarProperty Name="fr200" ColumnName="fr200" />
+          <ScalarProperty Name="fr300" ColumnName="fr300" />
+          <ScalarProperty Name="fr350" ColumnName="fr350" />
+          <ScalarProperty Name="paraffin" ColumnName="paraffin" />
+          <ScalarProperty Name="hydrogen" ColumnName="hydrogen" />
+          <ScalarProperty Name="mercaptan" ColumnName="mercaptan" />
+          <ScalarProperty Name="organic" ColumnName="organic" />
+          <ScalarProperty Name="visc" ColumnName="visc" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DayParkMechanMoz" FunctionName="Хранилище Model2.DayParkMechanMoz">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.DayParkMechanMoz_Result">
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DayParkMechanPol" FunctionName="Хранилище Model2.DayParkMechanPol">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.DayParkMechanPol_Result">
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="mechan" ColumnName="mechan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DayParkResultMoz" FunctionName="Хранилище Model2.DayParkResultMoz">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.DayParkResultMoz_Result">
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DayParkResultPol" FunctionName="Хранилище Model2.DayParkResultPol">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.DayParkResultPol_Result">
+          <ScalarProperty Name="tankid" ColumnName="tankid" />
+          <ScalarProperty Name="densreal" ColumnName="densreal" />
+          <ScalarProperty Name="dens20" ColumnName="dens20" />
+          <ScalarProperty Name="water" ColumnName="water" />
+          <ScalarProperty Name="saltmg" ColumnName="saltmg" />
+          <ScalarProperty Name="tempreal" ColumnName="tempreal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище Model2.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище Model2.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище Model2.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище Model2.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище Model2.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model2.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище Model2.sp_renamediagram" />
+  </EntityContainerMapping>
+</Mapping>
